@@ -1,1 +1,139 @@
-<html><head><title>DBMS</title></head><body>index</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS - Index</title>
+    <style>
+        /* Mengatur body dan html agar mengisi seluruh layar */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+
+        /* Flexbox pada body agar footer selalu berada di bawah */
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #27ae60; /* Hijau lebih terang */
+            color: #fff;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        header img {
+            max-height: 80px;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .university-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Daftar halaman */
+        .page-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .page-list li {
+            background-color: #2ecc71; /* Warna hijau terang */
+            color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .page-list li:hover {
+            background-color: #27ae60; /* Hijau lebih gelap */
+        }
+
+        .page-list a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        .page-list li span {
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+            background-color: #27ae60; /* Hijau gelap */
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #27ae60; /* Hijau lebih terang */
+            color: #fff;
+            margin-top: 50px;
+            margin-top: auto; /* Memastikan footer menempel di bawah */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo Universitas -->
+        
+        
+        <!-- Nama Universitas -->
+        <div>
+            <h1>Mata Kuliah Database Management System</h1>
+            <p align="center" class="university-name">Universitas PGRI Mahadewa Indonesia</p>
+        </div>
+    </header>
+
+    <!-- Daftar Halaman (1-13) -->
+    <ul class="page-list">
+        <li><a href="https://universitasmahadewa.github.io/dbms/P1%20Konsep%20Basis%20Data/materi1.html"><span>1</span> Konsep Basis Data</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P2%20New%20Sistem%20Basis%20Data/materi2new.html"><span>2</span> Sistem Basis Data</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P3%20Lingkungan%20Basis%20Data/materi3.html"><span>3</span> Lingkungan Basis Data</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P4%20New%20Relasional%20Basis%20Data/materi4new.html"><span>4</span> Relasional Basis Data</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P5%20Konsep%20Normalisasi/materi5.html"><span>5</span> Konsep Normalisasi</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P7%20ERD/materi7.html"><span>6</span> ERD</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P10%20DBMS/materi10.html"><span>7</span> DBMS</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P11%20DDL/materi11.html"><span>8</span> DDL</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P12%20DML%20Insert%20update/materi12.html"><span>9</span> DML Insert update</a></li>
+        <li><a href="https://universitasmahadewa.github.io/dbms/P13%20New%20DBMS/materi13new.html"><span>10</span> DBMS</a></li>
+        
+    </ul>
+
+    <footer>
+        <p>&copy; 2024 Universitas PGRI Mahadewa Indonesia | DBMS Project | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
