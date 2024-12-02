@@ -22,12 +22,21 @@
         /* Header */
         header {
             display: flex;
+            flex-direction: column; /* Membuat logo dan teks judul terletak secara vertikal */
             align-items: center;
             justify-content: center;
             background-color: #27ae60; /* Hijau lebih terang */
             color: #fff;
             padding: 20px 0;
             flex-wrap: wrap;
+        }
+
+        /* Logo Container */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+           
         }
 
         header img {
@@ -104,18 +113,20 @@
     </style>
 </head>
 <body>
-
     <header>
-        <!-- Logo Universitas -->
-        
-        
-        <!-- Nama Universitas -->
-        <div>
-            <h1>Mata Kuliah Database Management System</h1>
-            <p align="center" class="university-name">Universitas PGRI Mahadewa Indonesia</p>
+        <!-- Tempat untuk 6 logo di atas judul -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo 1" style="height: 200px;">
+            
+        </div>
+
+        <!-- Nama Universitas dan Mata Kuliah -->
+        <div style="text-align: center; padding-top: 20px;">
+            <h1>Mata Kuliah Basis Data</h1>
+            <p class="university-name">Universitas PGRI Mahadewa Indonesia</p>
         </div>
     </header>
-
+    
     <!-- Daftar Halaman (1-13) -->
     <ul class="page-list">
         <li><a href="https://universitasmahadewa.github.io/dbms/P1%20Konsep%20Basis%20Data/materi1.html"><span>1</span> Konsep Basis Data</a></li>
@@ -128,11 +139,10 @@
         <li><a href="https://universitasmahadewa.github.io/dbms/P11%20DDL/materi11.html"><span>8</span> DDL</a></li>
         <li><a href="https://universitasmahadewa.github.io/dbms/P12%20DML%20Insert%20update/materi12.html"><span>9</span> DML Insert update</a></li>
         <li><a href="https://universitasmahadewa.github.io/dbms/P13%20New%20DBMS/materi13new.html"><span>10</span> DBMS</a></li>
-        
     </ul>
 
     <footer>
-        <p>&copy; 2024 Universitas PGRI Mahadewa Indonesia | DBMS Project | All Rights Reserved</p>
+        <p>&copy; 2024 Universitas PGRI Mahadewa Indonesia | Basis Data | Support By Belmawa</p>
     </footer>
 
 </body>
